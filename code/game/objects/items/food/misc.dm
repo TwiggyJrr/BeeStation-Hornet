@@ -365,10 +365,10 @@
 	juice_typepath = /datum/reagent/consumable/coconutjuice
 	w_class = WEIGHT_CLASS_SMALL
 
-/obj/item/food/desiccated_coconut //Obtained by putting coconut flesh in the food processor
-	name = "coconut flesh"
-	desc = "The white flesh of a coconut."
-	icon_state = "coconutflesh"
+/obj/item/food/desiccatedcoconut //Obtained by putting coconut flesh in the food processor
+	name = "desiccated coconut"
+	desc = "The white flesh of a coconut, dried out and desiccated."
+	icon_state = "desiccatedcoconut"
 	food_reagents = list(
 		/datum/reagent/consumable/coconutmilk = 1,
 		/datum/reagent/consumable/nutriment = 1,
@@ -377,6 +377,5 @@
 	tastes = list("coconut" = 1)
 	foodtypes = FRUIT
 	food_flags = FOOD_FINGER_FOOD
-	juice_typepath = /datum/reagent/consumable/coconutjuice
-	w_class = WEIGHT_CLASS_SMALL
+	w_class = WEIGHT_CLASS_TINY
 

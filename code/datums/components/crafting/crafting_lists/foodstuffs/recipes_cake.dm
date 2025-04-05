@@ -238,3 +238,12 @@
 	/obj/item/bikehorn/airhorn = 1
 	)
 	subcategory = CAT_CAKE
+
+/datum/crafting_recipe/food/coconutcake
+	name = "Coconut Cake"
+	result = /obj/item/food/cake/coconut
+	reqs = list(
+		/obj/item/food/cake/plain = 1,
+		/obj/item/food/cheese/wedge = 2
+	)
+	subcategory = CAT_CAKE
