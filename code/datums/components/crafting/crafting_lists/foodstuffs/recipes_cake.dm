@@ -244,6 +244,6 @@
 	result = /obj/item/food/cake/coconut
 	reqs = list(
 		/obj/item/food/cake/plain = 1,
-		/obj/item/food/cheese/wedge = 2
+		/obj/item/food/desiccatedcoconut = 4
 	)
 	subcategory = CAT_CAKE
