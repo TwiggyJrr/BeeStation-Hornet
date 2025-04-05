@@ -587,7 +587,6 @@
 		/datum/reagent/consumable/ethanol/hcider,
 		/datum/reagent/consumable/ethanol/creme_de_menthe,
 		/datum/reagent/consumable/ethanol/creme_de_cacao,
-		/datum/reagent/consumable/ethanol/creme_de_coconut,
 		/datum/reagent/consumable/ethanol/triple_sec,
 		/datum/reagent/consumable/ethanol/sake,
 		/datum/reagent/consumable/ethanol/applejack
