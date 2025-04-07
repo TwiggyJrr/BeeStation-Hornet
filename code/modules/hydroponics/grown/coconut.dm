@@ -27,7 +27,7 @@ when processed, it lets you choose between coconut flesh or the coconut cup*/
 	w_class = WEIGHT_CLASS_NORMAL
 	throw_speed = 2
 	throw_range = 4
-	max_volume = 100
+	var/max_volume = 100
 
 // Use a knife/sharp object to process the coconut
 /obj/item/grown/coconut/attackby(obj/item/W, mob/user, params)
