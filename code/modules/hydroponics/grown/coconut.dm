@@ -42,6 +42,13 @@ when processed, it lets you choose between coconut flesh or the coconut cup*/
 
 	// Creates the coconut cup alongside the coconut flesh
 	var/obj/item/reagent_containers/cup/coconutcup/cup = new /obj/item/reagent_containers/cup/coconutcup(src.loc)
+
+	// Scale the volume of the coconut cup based on the plant's potency
+	if(seed && seed.potency)
+		cup.volume = max(10, round(seed.potency)) // Scale volume, minimum of 10 - max of 100
+	else
+		cup.volume = 50 // Default volume if potency is unavailable
+
 	// Transfers the reagents from the plant to liquid form inside the cup
 	if(reagents && reagents.total_volume > 0)
 		reagents.trans_to(cup.reagents, reagents.total_volume)
