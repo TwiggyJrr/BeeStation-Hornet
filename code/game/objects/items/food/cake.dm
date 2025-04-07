@@ -593,6 +593,28 @@
 	slice_type = /obj/item/food/cakeslice/pavlova
 	crafting_complexity = FOOD_COMPLEXITY_3
 
+/obj/item/food/cake/coconut
+	name = "coconut cake"
+	desc = "A soft, fluffy cake infused with sweet coconut flavor and topped with delicate shavings."
+	icon_state = "coconut"
+	food_reagents = list(
+		/datum/reagent/consumable/nutriment = 20,
+		/datum/reagent/consumable/nutriment/vitamin = 5,
+		/datum/reagent/consumable/sugar = 15,
+	)
+	tastes = list("sweet" = 4, "tropical" = 3, "nutty" = 2, "creamy" = 2)
+	foodtypes = DAIRY | FRUIT | SUGAR
+	slice_type = /obj/item/food/cakeslice/coconutslice
+	crafting_complexity = FOOD_COMPLEXITY_3
+
+/obj/item/food/cakeslice/coconutslice
+	name = "coconut cake slice"
+	desc = "A slice of soft, fluffy cake infused with sweet coconut flavor and topped with delicate shavings."
+	icon_state = "coconut_slice"
+	tastes = list("sweet" = 4, "tropical" = 3, "nutty" = 2, "creamy" = 2)
+	foodtypes = DAIRY | FRUIT | SUGAR
+	crafting_complexity = FOOD_COMPLEXITY_3
+
 /*
 /obj/item/food/cake/pavlova/nuts
 	name = "pavlova with nuts"

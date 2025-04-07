@@ -249,7 +249,7 @@
 /datum/chemical_reaction/drink/painkiller
 	name = "Painkiller"
 	results = list(/datum/reagent/consumable/ethanol/painkiller = 10)
-	required_reagents = list(/datum/reagent/consumable/ethanol/creme_de_coconut = 5, /datum/reagent/consumable/pineapplejuice = 4, /datum/reagent/consumable/orangejuice = 1)
+	required_reagents = list(/datum/reagent/consumable/ethanol/rum = 3, /datum/reagent/consumable/coconutmilk = 3, /datum/reagent/consumable/pineapplejuice = 3, /datum/reagent/consumable/orangejuice = 1)
 
 /datum/chemical_reaction/drink/pina_colada
 	name = "Pina Colada"

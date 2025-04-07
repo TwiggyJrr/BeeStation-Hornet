@@ -101,3 +101,8 @@
 /datum/food_processor_process/fish
 	input = /obj/item/fish
 	output = /obj/item/food/fishmeat
+
+/datum/food_processor_process/coconutflesh
+	input = /obj/item/food/coconutflesh
+	output = /obj/item/food/desiccatedcoconut
+	food_multiplier = 2

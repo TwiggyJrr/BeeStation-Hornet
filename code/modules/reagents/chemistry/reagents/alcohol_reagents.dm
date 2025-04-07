@@ -1606,17 +1606,6 @@ All effects don't start immediately, but rather get worse over time; the rate is
 	glass_name = "Creme de Cacao"
 	glass_desc = "A million hazing lawsuits and alcohol poisonings have started with this humble ingredient."
 
-/datum/reagent/consumable/ethanol/creme_de_coconut
-	name = "Creme de Coconut"
-	description = "A coconut liqueur for smooth, creamy, tropical drinks."
-	color = "#F7F0D0"
-	chem_flags = CHEMICAL_BASIC_DRINK | CHEMICAL_RNG_GENERAL
-	boozepwr = 20
-	taste_description = "a sweet milky flavor with notes of toasted sugar"
-	glass_icon_state = "glass_white"
-	glass_name = "Creme de Coconut"
-	glass_desc = "An unintimidating glass of coconut liqueur."
-
 /datum/reagent/consumable/ethanol/quadruple_sec
 	name = "Quadruple Sec"
 	description = "Kicks just as hard as licking the power cell on a baton, but tastier."
